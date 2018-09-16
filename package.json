@@ -1,0 +1,27 @@
+{
+  "name": "node-scrypt-async-compatibility",
+  "version": "1.0.0",
+  "description": "Easing the transition from node-scrypt to scrypt-async-js",
+  "main": "node-scrypt-async-compatibility.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccoenen/scrypt-async-compatibility.git"
+  },
+  "keywords": [
+    "scrypt"
+  ],
+  "author": "Claudius Coenen",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "scrypt": "^6.0.3"
+  },
+  "dependencies": {
+    "scrypt-async": "^2.0.1"
+  }
+}
